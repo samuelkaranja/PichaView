@@ -10,7 +10,7 @@ const Photo: React.FC = () => {
   return (
     <div className="flex justify-center py-10">
       <img
-        className="w-120 h-120 rounded-lg object-cover"
+        className="w-170 h-150 rounded-lg object-cover"
         src={photoFilter?.image}
         alt=""
       />
