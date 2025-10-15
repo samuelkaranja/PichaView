@@ -1,6 +1,5 @@
 import React from "react";
-//import Sidebar from "../components/SideBar";
-import Gallery from "../components/Gallery";
+import { Gallery } from "../components";
 
 const Home: React.FC = () => {
   return (

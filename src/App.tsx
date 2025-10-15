@@ -1,10 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Photo from "./components/Photo";
 import MainLayout from "./layout/MainLayout";
+import { Photo } from "./components";
+import { About, Contact, Home } from "./pages";
 
 function App() {
   return (
