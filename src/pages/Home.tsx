@@ -3,7 +3,7 @@ import { Gallery } from "../components";
 
 const Home: React.FC = () => {
   return (
-    <div className="flex">
+    <div className="flex justify-center items-center">
       <Gallery />
     </div>
   );
