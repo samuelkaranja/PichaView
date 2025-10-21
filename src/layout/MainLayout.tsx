@@ -7,7 +7,7 @@ const MainLayout: React.FC = () => {
     <div className="min-h-screen flex bg-gray-50">
       <SideBar />
       <main className="flex-1 p-4 md:ml-64">
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1150px] mx-auto">
           <Outlet />
         </div>
         <Footer />
