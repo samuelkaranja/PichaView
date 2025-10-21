@@ -55,19 +55,16 @@ const Sidebar: React.FC = () => {
             {weddingsOpen && (
               <div className="flex flex-col mt-2 text-md text-gray-600">
                 <Link
-                  to="/weddings/favorites"
+                  to="/favorites"
                   className="hover:bg-gray-200 py-1 rounded"
                 >
                   Favorites
                 </Link>
-                <Link
-                  to="/weddings/venues"
-                  className="hover:bg-gray-200 py-1 rounded"
-                >
+                <Link to="/venues" className="hover:bg-gray-200 py-1 rounded">
                   Ceremony & Reception Venues
                 </Link>
                 <Link
-                  to="/weddings/engagements"
+                  to="/engagements"
                   className="hover:bg-gray-200 py-1 rounded"
                 >
                   Engagements
