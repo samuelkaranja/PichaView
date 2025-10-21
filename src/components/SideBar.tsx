@@ -25,7 +25,7 @@ const Sidebar: React.FC = () => {
 
       {/* Sidebar */}
       <aside
-        className={`fixed top-0 left-0 h-full w-70 bg-white shadow-md p-6 z-40 text-center 
+        className={`fixed top-0 left-0 h-full w-80 bg-white shadow-md p-6 z-40 text-center 
           transform ${open ? "translate-x-0" : "-translate-x-full"} 
           md:translate-x-0 md:block transition-transform duration-300`}
       >
