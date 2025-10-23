@@ -35,7 +35,7 @@ const Sidebar: React.FC = () => {
 
         <nav className="flex flex-col gap-6 text-[#414042] text-[16px]">
           <Link to="/" className="hover:bg-gray-300 py-1">
-            POTRAITS
+            GALLERY
           </Link>
           {/* Weddings Dropdown */}
           <div>
