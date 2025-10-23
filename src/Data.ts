@@ -16,6 +16,27 @@ import img15 from "./assets/Gallery/15.jpg";
 import img16 from "./assets/Gallery/16.jpg";
 import img17 from "./assets/Gallery/17.jpg";
 import img18 from "./assets/Gallery/18.jpg";
+// Favorites
+import f1 from "./assets/Wedding/Favourite/1.jpg";
+import f2 from "./assets/Wedding/Favourite/2.jpg";
+import f3 from "./assets/Wedding/Favourite/3.jpg";
+import f4 from "./assets/Wedding/Favourite/4.jpg";
+import f5 from "./assets/Wedding/Favourite/5.jpg";
+import f6 from "./assets/Wedding/Favourite/6.jpg";
+// Engagement
+import e1 from "./assets/Wedding/Engagement/1.jpg";
+import e2 from "./assets/Wedding/Engagement/2.jpg";
+import e3 from "./assets/Wedding/Engagement/3.jpg";
+import e4 from "./assets/Wedding/Engagement/4.jpg";
+import e5 from "./assets/Wedding/Engagement/5.jpg";
+import e6 from "./assets/Wedding/Engagement/6.jpg";
+// Venue
+import vn1 from "./assets/Wedding/Ceremony/1.jpg";
+import vn2 from "./assets/Wedding/Ceremony/2.jpg";
+import vn3 from "./assets/Wedding/Ceremony/3.png";
+import vn4 from "./assets/Wedding/Ceremony/4.jpg";
+import vn5 from "./assets/Wedding/Ceremony/5.jpg";
+import vn6 from "./assets/Wedding/Ceremony/6.jpg";
 
 export const Images = [
   {
@@ -89,5 +110,86 @@ export const Images = [
   {
     id: 18,
     image: img18,
+  },
+];
+
+export const Favorite = [
+  {
+    id: 1,
+    image: f1,
+  },
+  {
+    id: 2,
+    image: f2,
+  },
+  {
+    id: 3,
+    image: f3,
+  },
+  {
+    id: 4,
+    image: f4,
+  },
+  {
+    id: 5,
+    image: f5,
+  },
+  {
+    id: 6,
+    image: f6,
+  },
+];
+
+export const Engagement = [
+  {
+    id: 1,
+    image: e1,
+  },
+  {
+    id: 2,
+    image: e2,
+  },
+  {
+    id: 3,
+    image: e3,
+  },
+  {
+    id: 4,
+    image: e4,
+  },
+  {
+    id: 5,
+    image: e5,
+  },
+  {
+    id: 6,
+    image: e6,
+  },
+];
+
+export const Venue = [
+  {
+    id: 1,
+    image: vn1,
+  },
+  {
+    id: 2,
+    image: vn2,
+  },
+  {
+    id: 3,
+    image: vn3,
+  },
+  {
+    id: 4,
+    image: vn4,
+  },
+  {
+    id: 5,
+    image: vn5,
+  },
+  {
+    id: 6,
+    image: vn6,
   },
 ];
