@@ -1,3 +1,4 @@
+// Gallery
 import img1 from "./assets/Gallery/1.jpg";
 import img2 from "./assets/Gallery/2.jpg";
 import img3 from "./assets/Gallery/3.jpg";
@@ -42,154 +43,181 @@ export const Images = [
   {
     id: 1,
     image: img1,
+    tag: "gallery",
   },
   {
     id: 2,
     image: img2,
+    tag: "gallery",
   },
   {
     id: 3,
     image: img3,
+    tag: "gallery",
   },
   {
     id: 4,
     image: img4,
+    tag: "gallery",
   },
   {
     id: 5,
     image: img5,
+    tag: "gallery",
   },
   {
     id: 6,
     image: img6,
+    tag: "gallery",
   },
   {
     id: 7,
     image: img7,
+    tag: "gallery",
   },
   {
     id: 8,
     image: img8,
+    tag: "gallery",
   },
   {
     id: 9,
     image: img9,
+    tag: "gallery",
   },
   {
     id: 10,
     image: img10,
+    tag: "gallery",
   },
   {
     id: 11,
     image: img11,
+    tag: "gallery",
   },
   {
     id: 12,
     image: img12,
+    tag: "gallery",
   },
   {
     id: 13,
     image: img13,
+    tag: "gallery",
   },
   {
     id: 14,
     image: img14,
+    tag: "gallery",
   },
   {
     id: 15,
     image: img15,
+    tag: "gallery",
   },
   {
     id: 16,
     image: img16,
+    tag: "gallery",
   },
   {
     id: 17,
     image: img17,
+    tag: "gallery",
   },
   {
     id: 18,
     image: img18,
+    tag: "gallery",
   },
-];
-
-export const Favorite = [
   {
-    id: 1,
+    id: 19,
     image: f1,
+    tag: "favorite",
   },
   {
-    id: 2,
+    id: 20,
     image: f2,
+    tag: "favorite",
   },
   {
-    id: 3,
+    id: 21,
     image: f3,
+    tag: "favorite",
   },
   {
-    id: 4,
+    id: 22,
     image: f4,
+    tag: "favorite",
   },
   {
-    id: 5,
+    id: 23,
     image: f5,
+    tag: "favorite",
   },
   {
-    id: 6,
+    id: 24,
     image: f6,
+    tag: "favorite",
   },
-];
-
-export const Engagement = [
   {
-    id: 1,
+    id: 25,
     image: e1,
+    tag: "engagement",
   },
   {
-    id: 2,
+    id: 26,
     image: e2,
+    tag: "engagement",
   },
   {
-    id: 3,
+    id: 27,
     image: e3,
+    tag: "engagement",
   },
   {
-    id: 4,
+    id: 28,
     image: e4,
+    tag: "engagement",
   },
   {
-    id: 5,
+    id: 29,
     image: e5,
+    tag: "engagement",
   },
   {
-    id: 6,
+    id: 30,
     image: e6,
+    tag: "engagement",
   },
-];
-
-export const Venue = [
   {
-    id: 1,
+    id: 31,
     image: vn1,
+    tag: "venue",
   },
   {
-    id: 2,
+    id: 32,
     image: vn2,
+    tag: "venue",
   },
   {
-    id: 3,
+    id: 33,
     image: vn3,
+    tag: "venue",
   },
   {
-    id: 4,
+    id: 34,
     image: vn4,
+    tag: "venue",
   },
   {
-    id: 5,
+    id: 35,
     image: vn5,
+    tag: "venue",
   },
   {
-    id: 6,
+    id: 36,
     image: vn6,
+    tag: "venue",
   },
 ];
