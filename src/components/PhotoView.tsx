@@ -4,30 +4,40 @@ import { Images } from "../Data";
 import { FaArrowLeft, FaArrowRight, FaTimes } from "react-icons/fa";
 
 const PhotoView: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+  const { id, tag } = useParams<{ id: string; tag: string }>();
   const navigate = useNavigate();
+
+  const [filteredImages, setFilteredImages] = useState<typeof Images>([]);
   const [currentIndex, setCurrentIndex] = useState<number>(0);
 
+  // Filter images by tag on mount
   useEffect(() => {
-    const imageIndex = Images.findIndex((img) => img.id === Number(id));
-    if (imageIndex !== -1) setCurrentIndex(imageIndex);
-  }, [id]);
+    const sameTagImages = Images.filter((img) => img.tag === tag);
+    setFilteredImages(sameTagImages);
+
+    const index = sameTagImages.findIndex((img) => img.id === Number(id));
+    if (index !== -1) setCurrentIndex(index);
+  }, [id, tag]);
 
   const handleNext = () => {
-    setCurrentIndex((prev) => (prev + 1) % Images.length);
+    setCurrentIndex((prev) => (prev + 1) % filteredImages.length);
   };
 
   const handlePrev = () => {
-    setCurrentIndex((prev) => (prev - 1 + Images.length) % Images.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + filteredImages.length) % filteredImages.length
+    );
   };
 
-  const currentImage = Images[currentIndex];
+  const currentImage = filteredImages[currentIndex];
+
+  if (!currentImage) return null;
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen relative">
       {/* Close Button */}
       <button
-        onClick={() => navigate("/")}
+        onClick={() => navigate(-1)}
         className="absolute top-6 left-6 text-white bg-gray-800 p-3 rounded-full hover:bg-gray-700"
       >
         <FaTimes size={20} />
