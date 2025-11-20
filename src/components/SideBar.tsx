@@ -80,7 +80,9 @@ const Sidebar: React.FC = () => {
           </Link>
         </nav>
 
-        <div className="mt-8 flex flex-col gap-8">
+        <h1 className="text-xl font-medium mt-5">Social Links</h1>
+
+        <div className="mt-6 flex flex-col gap-8">
           <a href="#">
             <FaFacebook size={20} color="blue" className="mx-auto" />
           </a>
